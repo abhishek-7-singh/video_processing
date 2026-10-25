@@ -3,7 +3,7 @@ name = "video-sentiment"
 version = "0.1.0"
 description = "Local speaker-level aspect sentiment for discussion videos."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.9"
 dependencies = [
   "PyYAML>=6.0",
   "imageio-ffmpeg>=0.5",

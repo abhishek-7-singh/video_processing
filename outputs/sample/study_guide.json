@@ -1,0 +1,62 @@
+{
+  "overview": "The video discusses two software companies, Northwind and Contoso, in the context of their support, pricing, and office openings. The speaker's opinions are neutral, with no clear stance on either company.",
+  "core_concepts": [
+    {
+      "concept": "Software Company Comparison",
+      "definition": "A discussion comparing two software companies based on factors such as support, pricing, and office openings.",
+      "key_takeaway": "The video highlights the neutral opinions of the speakers regarding Northwind and Contoso."
+    }
+  ],
+  "speaker_perspectives": [
+    {
+      "speaker": "Speaker 1",
+      "main_stance": "Neutral",
+      "key_claims": [
+        "Northwind has the best support in the market",
+        "Northwind opened four offices last month, but their delays are still a problem"
+      ],
+      "sentiments": "Neutral"
+    },
+    {
+      "speaker": "Speaker 2",
+      "main_stance": "Neutral",
+      "key_claims": [
+        "I would not go with them",
+        "Contoso is not good on price"
+      ],
+      "sentiments": "Neutral"
+    },
+    {
+      "speaker": "Speaker 3",
+      "main_stance": "Neutral",
+      "key_claims": [
+        "The industry needs both of them"
+      ],
+      "sentiments": "Neutral"
+    }
+  ],
+  "timeline_events": [
+    {
+      "time_range": "00:00 - 00:04",
+      "topic": "Northwind's Support",
+      "summary": "Speaker 1 states that Northwind has the best support in the market."
+    },
+    {
+      "time_range": "00:06 - 00:10",
+      "topic": "Contoso's Pricing",
+      "summary": "Speaker 2 states that Contoso is not good on price."
+    },
+    {
+      "time_range": "00:15 - 00:19",
+      "topic": "Northwind's Office Openings",
+      "summary": "Speaker 1 mentions that Northwind opened four offices last month, but their delays are still a problem."
+    }
+  ],
+  "high_yield_test_facts": [
+    "Northwind has the best support in the market.",
+    "Contoso is not good on price."
+  ],
+  "keyframes": [],
+  "source": "examples\\sample_turns.json",
+  "duration_sec": 18.2
+}

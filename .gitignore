@@ -13,4 +13,9 @@ outputs/**/source.*
 outputs/**/run.*
 *.wav
 *.mp3
+*.mp4
+*.mkv
+*.webm
+*.avi
+outputs/_screen_captures/
 .DS_Store

@@ -50,9 +50,11 @@ class Settings:
         return text or None
 
 
-def load_settings(path: Path | None) -> Settings:
+def load_settings(path: Path | None = None) -> Settings:
     settings = Settings()
-    if path is not None:
+    if path is None and Path("config.yaml").exists():
+        path = Path("config.yaml")
+    if path is not None and path.exists():
         raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
         if not isinstance(raw, dict):
             raise ValueError(f"{path} must contain a mapping of settings.")

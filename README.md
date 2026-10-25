@@ -79,8 +79,32 @@ A title such as `Boeing vs Airbus In 2026` is saved under `outputs\Boeing vs Air
 Open the finished runs in the browser:
 
 ```powershell
-.\.venv\Scripts\streamlit run dashboard.py
+streamlit run dashboard.py
 ```
+
+### New: Screen Capture, Video Study & Test Question Solver
+
+1. **Record videos directly from your screen:**
+   - **In Dashboard:** Open `dashboard.py` -> click **"Screen & Video Capture"** tab -> click **"Start Screen Capture"** to record any screen, window, or Chrome tab with audio!
+   - **From CLI:**
+   ```powershell
+   python -m video_sentiment record-screen -d 30 -o outputs\my_lecture\screen.mp4 --analyze
+   ```
+
+2. **Generate Video Study Guide & Extract Key Visual Slides:**
+   - Automatically extracted during analysis, or run manually:
+   ```powershell
+   python -m video_sentiment study outputs\sample
+   ```
+   Creates `study_guide.json` and `study_guide.md` with executive summary, core concepts, speaker perspectives, and high-yield facts.
+
+3. **Answer Test Questions & Exam MCQs:**
+   - **Interactive Q&A in Dashboard:** Enter any Multiple Choice (A/B/C/D) or open-ended question in the **"Test Question Solver"** tab.
+   - **Capture On-Screen Question:** Click **"Capture & Solve From Screen"** to snap an exam question appearing on your display!
+   - **From CLI:**
+   ```powershell
+   python -m video_sentiment answer-test outputs\sample -q "Why did Speaker 2 dislike Contoso? A) Poor quality B) Bad price C) Slow delivery"
+   ```
 
 Useful flags:
 
